@@ -20,6 +20,49 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  }
+
+.header {
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.exclamacion {
+  display: flex;
 }
 
 .icon {
